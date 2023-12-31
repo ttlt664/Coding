@@ -73,6 +73,12 @@ build CMakeFiles/Coding.dir/2023/12/2413._最小偶倍数.cpp.obj: CXX_COMPILER__Codi
   OBJECT_DIR = CMakeFiles\Coding.dir
   OBJECT_FILE_DIR = CMakeFiles\Coding.dir\2023\12
 
+build CMakeFiles/Coding.dir/2023/12/2236._判断根结点是否等于子结点之和.cpp.obj: CXX_COMPILER__Coding_Debug E$:/考研rw/Coding/2023/12/2236.$ 判断根结点是否等于子结点之和.cpp || cmake_object_order_depends_target_Coding
+  DEP_FILE = CMakeFiles\Coding.dir\2023\12\2236._判断根结点是否等于子结点之和.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Coding.dir
+  OBJECT_FILE_DIR = CMakeFiles\Coding.dir\2023\12
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Coding
@@ -81,7 +87,7 @@ build CMakeFiles/Coding.dir/2023/12/2413._最小偶倍数.cpp.obj: CXX_COMPILER__Codi
 #############################################
 # Link the executable Coding.exe
 
-build Coding.exe: CXX_EXECUTABLE_LINKER__Coding_Debug CMakeFiles/Coding.dir/2023/12/A+B.cpp.obj CMakeFiles/Coding.dir/2023/12/01packet.cpp.obj CMakeFiles/Coding.dir/2023/12/leecode_温度转换.cpp.obj CMakeFiles/Coding.dir/2023/12/2413._最小偶倍数.cpp.obj
+build Coding.exe: CXX_EXECUTABLE_LINKER__Coding_Debug CMakeFiles/Coding.dir/2023/12/A+B.cpp.obj CMakeFiles/Coding.dir/2023/12/01packet.cpp.obj CMakeFiles/Coding.dir/2023/12/leecode_温度转换.cpp.obj CMakeFiles/Coding.dir/2023/12/2413._最小偶倍数.cpp.obj CMakeFiles/Coding.dir/2023/12/2236._判断根结点是否等于子结点之和.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Coding.dir
