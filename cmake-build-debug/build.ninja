@@ -85,6 +85,12 @@ build CMakeFiles/Coding.dir/2023/12/1486._数组异或操作.cpp.obj: CXX_COMPILER__Co
   OBJECT_DIR = CMakeFiles\Coding.dir
   OBJECT_FILE_DIR = CMakeFiles\Coding.dir\2023\12
 
+build CMakeFiles/Coding.dir/2024/1/1512._好数对的数目.cpp.obj: CXX_COMPILER__Coding_Debug E$:/考研rw/Coding/2024/1/1512.$ 好数对的数目.cpp || cmake_object_order_depends_target_Coding
+  DEP_FILE = CMakeFiles\Coding.dir\2024\1\1512._好数对的数目.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Coding.dir
+  OBJECT_FILE_DIR = CMakeFiles\Coding.dir\2024\1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Coding
@@ -93,7 +99,7 @@ build CMakeFiles/Coding.dir/2023/12/1486._数组异或操作.cpp.obj: CXX_COMPILER__Co
 #############################################
 # Link the executable Coding.exe
 
-build Coding.exe: CXX_EXECUTABLE_LINKER__Coding_Debug CMakeFiles/Coding.dir/2023/12/A+B.cpp.obj CMakeFiles/Coding.dir/2023/12/01packet.cpp.obj CMakeFiles/Coding.dir/2023/12/leecode_温度转换.cpp.obj CMakeFiles/Coding.dir/2023/12/2413._最小偶倍数.cpp.obj CMakeFiles/Coding.dir/2023/12/2236._判断根结点是否等于子结点之和.cpp.obj CMakeFiles/Coding.dir/2023/12/1486._数组异或操作.cpp.obj
+build Coding.exe: CXX_EXECUTABLE_LINKER__Coding_Debug CMakeFiles/Coding.dir/2023/12/A+B.cpp.obj CMakeFiles/Coding.dir/2023/12/01packet.cpp.obj CMakeFiles/Coding.dir/2023/12/leecode_温度转换.cpp.obj CMakeFiles/Coding.dir/2023/12/2413._最小偶倍数.cpp.obj CMakeFiles/Coding.dir/2023/12/2236._判断根结点是否等于子结点之和.cpp.obj CMakeFiles/Coding.dir/2023/12/1486._数组异或操作.cpp.obj CMakeFiles/Coding.dir/2024/1/1512._好数对的数目.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Coding.dir
