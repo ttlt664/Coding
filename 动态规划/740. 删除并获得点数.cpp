@@ -28,3 +28,25 @@
 //
 //1 <= nums.length <= 2 * 104
 //1 <= nums[i] <= 104
+#include<vector>
+using namespace std;
+class Solution {
+public:
+    int deleteAndEarn(vector<int>& nums) {
+        int lenth = nums.size();
+        int choose[10001];
+        int no_choose[10001];
+        vector<int> cost(10001);
+
+        for (auto const& e : nums) {
+            cost[e] += e;
+        }
+        choose[0] = cost[0];
+        no_choose[0] = 0;
+        for(int i=1;i<lenth;i++){
+            choose[i] = no_choose[i-1] + cost[i];
+            no_choose[i] = max(choose[i-1],no_choose[i-1]);
+        }
+        return max(choose[lenth-1],no_choose[lenth-1]);
+    }
+};
